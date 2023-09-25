@@ -68,6 +68,7 @@ class Regex {
 
         do {
         
+            let rx = try NSRegularExpression(pattern: regex, options: [.caseInsensitive])
             let matches = rx.matches(in: string, options: [], range: NSRange(string.startIndex..., in: string))
             return !matches.isEmpty ? Regex.stringMatches(matches, text: string, index: index) : []
 
