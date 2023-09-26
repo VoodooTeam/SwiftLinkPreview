@@ -23,6 +23,11 @@
 
 ---
 
+## [3.5.1](https://github.com/VoodooTeam/Swift-Link-Preview/releases/tag/3.5.1)
+
+#### Changed
+- Fix build issue
+
 ## [3.5.0](https://github.com/LeonardoCardoso/Swift-Link-Preview/releases/tag/3.5.0)
 
 #### Added
